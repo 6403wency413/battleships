@@ -13,13 +13,13 @@ board_surface = pygame.display.set_mode(screensize)
 ocean = (0, 105, 148)
 
 # Images
-Header = pygame.image.load('Data/Images/Label.png')
-side_label = pygame.image.load('Data/Images/side_label.png')
-Player1 = pygame.image.load('Data/Images/Player1.png')
-Player2 = pygame.image.load('Data/Images/Player2.png')
-ship_sunk = pygame.image.load('Data/Images/ship_sunk.png')
-your_turn = pygame.image.load('Data/Images/your_turn.png')
-press_q = pygame.image.load('Data/Images/Press_Q.png')
+Header = pygame.image.load('../data/images/Label.png')
+side_label = pygame.image.load('../data/images/side_label.png')
+Player1 = pygame.image.load('../data/images/Player1.png')
+Player2 = pygame.image.load('../data/images/Player2.png')
+ship_sunk = pygame.image.load('../data/images/ship_sunk.png')
+your_turn = pygame.image.load('../data/images/your_turn.png')
+press_q = pygame.image.load('../data/images/Press_Q.png')
 
 
 # Main function
